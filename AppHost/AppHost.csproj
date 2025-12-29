@@ -1,0 +1,22 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.2.0-preview.1.25621.2">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>14.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="aspire-restore-db-backup.slnx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="13.2.0-preview.1.25621.2" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.DbGate" Version="13.0.1-beta.468" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.SqlServer.Extensions" Version="13.0.1-beta.468" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.3" />
+  </ItemGroup>
+
+</Project>
